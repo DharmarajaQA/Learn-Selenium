@@ -27,7 +27,6 @@ public class OpenBrowser {
 
 	public static void tearDown() {
 		driver.quit();
-
 	}
 	
 	public static void searchOperation() {

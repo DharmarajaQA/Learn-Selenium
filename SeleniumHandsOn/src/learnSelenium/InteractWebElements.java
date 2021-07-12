@@ -5,7 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-
 public class InteractWebElements {
 
 	static WebDriver driver = null;
@@ -45,7 +44,6 @@ public class InteractWebElements {
 		driver.quit();
 
 	}
-
 
 	public static void main(String[] args) throws InterruptedException {
 		openBrowser();

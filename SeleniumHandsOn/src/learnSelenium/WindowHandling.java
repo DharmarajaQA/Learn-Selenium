@@ -26,6 +26,8 @@ public class WindowHandling {
 		driver.manage().window().maximize();
 
 	}
+	
+	//WindowHandles
 
 	public static void openHomePage() {
 

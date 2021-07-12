@@ -26,6 +26,7 @@ public class OpenBrowser {
 	}
 
 	public static void tearDown() {
+		
 		driver.quit();
 	}
 	

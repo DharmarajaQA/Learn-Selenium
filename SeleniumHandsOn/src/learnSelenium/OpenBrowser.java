@@ -40,7 +40,7 @@ public class OpenBrowser {
 		// Launching Chrome browser
 		chromeBrowser();
 		searchOperation();
-		Thread.sleep(3000); 
+		Thread.sleep(2000); 
 		tearDown();
 		
 		// Launching Edge browser

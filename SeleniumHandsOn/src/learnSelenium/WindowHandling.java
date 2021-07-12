@@ -65,7 +65,7 @@ public class WindowHandling {
 		
 		chromeBrowser();
 		openHomePage();
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		tearDown();
 		
 	}

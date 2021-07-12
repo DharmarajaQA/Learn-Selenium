@@ -18,7 +18,7 @@ public class InteractWebElements {
 
 	public static void verifyTextField() throws InterruptedException {
 		driver.findElement(By.linkText("Edit")).click();
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 
 		//Enter value to the text field
 		driver.findElement(By.id("email")).sendKeys("selenium@gmail.com");	

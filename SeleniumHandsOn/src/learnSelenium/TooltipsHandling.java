@@ -28,6 +28,7 @@ public class TooltipsHandling {
 		 * Actions action = new Actions(driver);
 		 * action.moveToElement(txtName).perform();
 		 */
+		 
 		String txtTooltip = txtName.getAttribute("title");
 		System.out.println("Tooltip Value: "+txtTooltip);
 	}
